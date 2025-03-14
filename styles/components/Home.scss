@@ -1,0 +1,72 @@
+.home {
+  text-align: left;
+  padding: 4rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #00fff7;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00fff7;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 5rem;
+
+  .bild {
+    flex: 0 0 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 255, 247, 0.5);
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  .aboutMeText {
+    margin: 2rem;
+    flex: 1;
+    font-size: 1.1rem;
+    color: #7c7c7c;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #333;
+
+    span {
+      color: #4caf50; /* Grün */
+    }
+  }
+}
+
+/* Desktop-Design */
+@media (min-width: 1024px) {
+  .aboutMe {
+    flex-direction: row;
+  }
+}

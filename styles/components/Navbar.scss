@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+    div {
+      h1 {
+        font-size: small;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1rem;
+      gap: 0.5rem;
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+  
+      &:hover {
+        color: #eaffec;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      ul {
+        flex-direction: row;
+        font-size: 1.2rem;
+        gap: 1rem;
+      }
+    }
+  }
+  
