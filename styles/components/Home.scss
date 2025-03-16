@@ -1,20 +1,20 @@
 .home {
   text-align: left;
   padding: 4rem;
-  background: #1e1e1e;
+  background: #1e1e1e75;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: #ffffff;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #00fff7;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
     color: #00fff7;
   }
@@ -27,14 +27,15 @@
 
 .aboutMe {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 5rem;
-  padding: 5rem;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
 
   .bild {
-    flex: 0 0 300px;
-    max-width: 300px;
+    flex: 0 0 250px;
+    max-width: 250px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 255, 247, 0.5);
@@ -47,26 +48,143 @@
   }
 
   .aboutMeText {
-    margin: 2rem;
-    flex: 1;
-    font-size: 1.1rem;
+    margin: 1rem;
+    font-size: 1rem;
     color: #7c7c7c;
   }
 
   h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
     color: #333;
 
     span {
-      color: #4caf50; /* Grün */
+      color: #4caf50;
     }
+  }
+
+  .download-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-top: 2rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #333, #4caf50);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    &:hover {
+      background: linear-gradient(135deg, #3d8f40, #bdffc6);
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.education-experience {
+  padding: 3rem;
+  background: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin-top: 3rem;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00fff7;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      
+      strong {
+        color: #4caf50;
+        font-size: 1.2rem;
+      }
+      
+      br {
+        margin-bottom: 0.5rem;
+      }
+
+      &::before {
+        content: "";
+        margin-right: 0.5rem;
+        color: #4caf50;
+      }
+    }
+  }
+  .download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+    .download-btn {
+      display: inline-block;
+      padding: 10px 16px;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(135deg, #333, #4caf50);
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+  
+      /* Icon Styling */
+      &::before {
+        content: "\f019"; /* Unicode für ein Download-Icon */
+        font-family: "Font Awesome 5 Free"; /* Font Awesome 5 Bibliothek */
+        font-weight: 900;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+      }
+  
+      &:hover {
+        background: linear-gradient(135deg,  #3d8f40, #bdffc6);
+        transform: scale(1.02);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
+
+/* Tablet-Design */
+@media (min-width: 768px) {
+  .aboutMe {
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
   }
 }
 
 /* Desktop-Design */
 @media (min-width: 1024px) {
   .aboutMe {
-    flex-direction: row;
+    gap: 5rem;
+    padding: 5rem;
+  }
+  
+  .education-experience {
+    padding: 4rem;
   }
 }

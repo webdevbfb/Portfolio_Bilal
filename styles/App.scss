@@ -26,6 +26,21 @@ body {
     body {
       font-family: Arial, sans-serif;
       background: #eaffec;
+      background-image: url("/Portfolio_Bilal/image.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(230, 255, 230, 0.932); // Dunkles Overlay mit Transparenz
+      z-index: -1;
     }
 
     .app {
