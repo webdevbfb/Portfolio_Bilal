@@ -11,7 +11,7 @@ export default function Home() {
         <p>Hier findest du meine neuesten Projekte und Kontaktmöglichkeiten.</p>
       </div>
       <div className="aboutMe">
-        <img className="bild" src="public/bilal-bagci.jpg" alt="Profilbild" width={150}/>
+        <img className="bild" src="/bilal-bagci.jpg" alt="Profilbild" width={150} />
         <div>
           <div>
             <h2>ÜBER MICH</h2>
