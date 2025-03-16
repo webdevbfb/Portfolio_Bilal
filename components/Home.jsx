@@ -26,11 +26,13 @@ export default function Home() {
             entwickle dynamische Webprojekte. Zurzeit vertiefe ich meine
             Kenntnisse in React und arbeite an verschiedenen Projekten, um meine
             Fähigkeiten zu verbessern. Neben der Webentwicklung interessiere ich
-            mich für nutzerfreundliche Designs und effizienten Code. Ich bin auf
-            der Suche nach neuen Herausforderungen, bei denen ich meine
-            Kenntnisse erweitern und praktische Erfahrungen sammeln kann. Wenn
-            du mit mir an spannenden Projekten arbeiten möchtest, freue ich mich
-            auf den Austausch!
+            mich für nutzerfreundliche Designs und effizienten Code. Durch meine
+            über 10-jährige Erfahrung mit Photoshop kann ich kreative Designs
+            gezielt in die Webentwicklung einfließen lassen und ansprechende
+            Benutzeroberflächen gestalten. Ich bin auf der Suche nach neuen
+            Herausforderungen, bei denen ich meine Kenntnisse erweitern und
+            praktische Erfahrungen sammeln kann. Wenn du mit mir an spannenden
+            Projekten arbeiten möchtest, freue ich mich auf den Austausch!
           </p>
           <h4>
             NAME: <span>Bilal Faik Bagci</span>
@@ -39,7 +41,7 @@ export default function Home() {
             GEBURTSTAG: <span>17.06.1989</span>
           </h4>
           <h4>
-            NATIONALITÄT: <span>deutsch</span>
+            NATIONALITÄT: <span>deutsch-türkisch</span>
           </h4>
           <h4>
             E-MAIL: <span>bilal.bagci@hotmail.de</span>
@@ -86,13 +88,13 @@ export default function Home() {
               Erfolgreich abgeschlossen mit Fokus auf Warenwirtschaft,
               Kundenbetreuung und Logistik.
               <div className="download-buttons">
-            <a
-              className="download-btn"
-              href="/Portfolio_Bilal/Prufungszeugnis_Groß-und-Außenhandelskaufmann.pdf"
-              download="Prufungszeugnis_Groß-und-Außenhandelskaufmann.pdf">
-              📄 Ausbildung - Prüfungszeugnis
-            </a>
-          </div>
+                <a
+                  className="download-btn"
+                  href="/Portfolio_Bilal/Prufungszeugnis_Groß-und-Außenhandelskaufmann.pdf"
+                  download="Prufungszeugnis_Groß-und-Außenhandelskaufmann.pdf">
+                  📄 Ausbildung - Prüfungszeugnis
+                </a>
+              </div>
             </li>
             <li>
               <strong>Selbstständigkeit als Onlinehändler</strong>
@@ -112,15 +114,62 @@ export default function Home() {
               Backend-Entwicklung, moderne Web-Technologien und agile
               Entwicklungsmethoden.
               <div className="download-buttons">
-            <a
-              className="download-btn"
-              href="/Portfolio_Bilal/Zertifikat_Bagci-Bilal-Faik.pdf"
-              download="Zertifikat_Bagci-Bilal-Faik.pdf">
-              📄 DCI Kurs - Zertifikat
-            </a>
-          </div>
+                <a
+                  className="download-btn"
+                  href="/Portfolio_Bilal/Zertifikat_Bagci-Bilal-Faik.pdf"
+                  download="Zertifikat_Bagci-Bilal-Faik.pdf">
+                  📄 DCI Kurs - Zertifikat
+                </a>
+              </div>
             </li>
           </ul>
+        </div>
+        <div className="skills">
+          <div>
+            <h2>Skills</h2>
+          </div>
+          <div className="sikilIcons">
+            <i class="fa-brands fa-html5">
+              <h3>HTML5</h3>
+            </i>
+            <i class="fa-brands fa-css3">
+              <h3>CSS3</h3>
+            </i>
+            <i class="fa-brands fa-sass">
+              <h3>SASS/SCSS</h3>
+            </i>
+            <i class="fa-brands fa-js">
+              <h3>JavaScript</h3>
+            </i>
+            <i class="fa-brands fa-bootstrap">
+              <h3>Bootstrap</h3>
+            </i>
+            <i class="fa-brands fa-react">
+              <h3>React</h3>
+            </i>
+            <i class="fa-brands fa-node-js">
+              <h3>Node.js</h3>
+            </i>
+            <i class="fa-brands fa-git">
+              <h3>Git</h3>
+            </i>
+            <i class="fa-brands fa-github">
+              <h3>GitHub</h3>
+            </i>
+            <i class="fa-brands fa-docker">
+              <h3>Docker</h3>
+            </i>
+
+            <i>
+              <img
+                className="psLogo"
+                src="/Portfolio_Bilal/image_ps.png"
+                alt="Photoshop LOGO"
+                width={80}
+              />
+              <h3>Photoshop</h3>
+            </i>
+          </div>
         </div>
       </section>
     </section>
