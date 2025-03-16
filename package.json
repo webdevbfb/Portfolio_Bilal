@@ -1,6 +1,6 @@
 {
-  "homepage": "https://webdevbfb.github.io/Portfolio_Bilal",
   "name": "frontend",
+  "homepage": "https://webdevbfb.github.io/Portfolio_Bilal/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
