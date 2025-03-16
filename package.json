@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
