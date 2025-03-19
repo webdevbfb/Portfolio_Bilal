@@ -1,15 +1,17 @@
 .projects {
   padding: 2rem;
-  background: #ffffff;
+  background: #08463b96;
+  backdrop-filter: blur(5px);
+  border: 1px solid #3dcfb6;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 6rem;
+  margin-top: 9rem;
 
   h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: #ffffff;
   }
 
   .project-list {

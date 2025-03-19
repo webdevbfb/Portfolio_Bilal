@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Fira Code;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(230, 255, 230, 0.932); // Dunkles Overlay mit Transparenz
+    background: #001613f1; // Dunkles Overlay mit Transparenz
     z-index: -1;
   }
   
