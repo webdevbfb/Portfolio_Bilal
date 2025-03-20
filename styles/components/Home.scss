@@ -39,12 +39,12 @@
   line-height: 1.6rem;
 
   .bild {
-    flex: 0 0 250px;
-    max-width: 250px;
+    max-width: 350px;
     border: 1px solid #3dcfb6;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 15px #3dcfb7ce;
+    transform: scaleX(-1);
 
     img {
       width: 100%;
@@ -245,7 +245,7 @@
     flex-direction: row;
     text-align: left;
     justify-content: center;
-    margin: 15rem 15rem;
+    margin: 5rem 5rem;
   }
 }
 
@@ -253,6 +253,7 @@
 @media (min-width: 1024px) {
   .aboutMe {
     gap: 2rem;
+    margin: 15rem 15rem;
   }
 
   .education-experience {

@@ -13,7 +13,7 @@ export default function Home() {
       <div className="aboutMe">
         <img
           className="bild"
-          src="/Portfolio_Bilal/bilal-bagci.jpg"
+          src="/Portfolio_Bilal/bilal-bagci.jpeg"
           alt="Profilbild"
         />
         <div>

@@ -31,9 +31,9 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #3dcfb64d;
     border-radius: 8px;
-    background: #f9f9f9;
+    background: #3dcfb64d;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 
@@ -55,7 +55,7 @@
 
     p {
       font-size: 1rem;
-      color: #555;
+      color: #3dcfb6;
       margin-bottom: 1rem;
     }
 
@@ -69,10 +69,11 @@
         padding: 0.5rem 1rem;
         border-radius: 4px;
         color: #fff;
-        background: #333;
+        background: #3dcfb6;
+        transition: background 0.7s ease-in-out;
 
         &:hover {
-          background: #555;
+          background: #3dcfb79a;
         }
       }
     }
@@ -80,7 +81,7 @@
 
   /* Desktop-Design */
   @media (min-width: 1024px) {
-    padding: 4rem;
+    margin: 9rem 15rem 0rem;
 
     h2 {
       font-size: 2.5rem;

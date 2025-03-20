@@ -23,7 +23,7 @@
 
     label {
       font-weight: bold;
-      color: #555;
+      color: #3dcfb6;
     }
 
     input,
@@ -37,21 +37,23 @@
 
     button {
       padding: 0.75rem;
-      background: #333;
+      background: #3dcfb64d;
       color: #fff;
       border: none;
       border-radius: 4px;
       font-size: 1rem;
+      transition: background 0.7s ease-in-out;
       cursor: pointer;
 
       &:hover {
-        background: #555;
+        background: #3dcfb79a;
       }
     }
   }
 
   /* Desktop-Design */
   @media (min-width: 1024px) {
+    margin: 9rem 15rem 0rem;
     .contact {
     padding: 2rem;
     margin-top: 10rem;

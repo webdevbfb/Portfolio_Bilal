@@ -71,7 +71,7 @@ export default function Footer() {
       <div>
         <div className="footer-section about">
           <hr />
-          <p>© 2024 Designed by Bilal F. Bagci | Alle Rechte vorbehalten.</p>
+          <p>© 2024 Bilal F. Bagci | Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>
